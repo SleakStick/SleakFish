@@ -1,0 +1,15 @@
+C:\Users\benja_vbhizik\source\repos\CChess\bin\Debug\net6.0\CChess.exe
+C:\Users\benja_vbhizik\source\repos\CChess\bin\Debug\net6.0\CChess.deps.json
+C:\Users\benja_vbhizik\source\repos\CChess\bin\Debug\net6.0\CChess.runtimeconfig.json
+C:\Users\benja_vbhizik\source\repos\CChess\bin\Debug\net6.0\CChess.dll
+C:\Users\benja_vbhizik\source\repos\CChess\bin\Debug\net6.0\CChess.pdb
+C:\Users\benja_vbhizik\source\repos\CChess\obj\Debug\net6.0\CChess.csproj.AssemblyReference.cache
+C:\Users\benja_vbhizik\source\repos\CChess\obj\Debug\net6.0\CChess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\benja_vbhizik\source\repos\CChess\obj\Debug\net6.0\CChess.AssemblyInfoInputs.cache
+C:\Users\benja_vbhizik\source\repos\CChess\obj\Debug\net6.0\CChess.AssemblyInfo.cs
+C:\Users\benja_vbhizik\source\repos\CChess\obj\Debug\net6.0\CChess.csproj.CoreCompileInputs.cache
+C:\Users\benja_vbhizik\source\repos\CChess\obj\Debug\net6.0\CChess.dll
+C:\Users\benja_vbhizik\source\repos\CChess\obj\Debug\net6.0\refint\CChess.dll
+C:\Users\benja_vbhizik\source\repos\CChess\obj\Debug\net6.0\CChess.pdb
+C:\Users\benja_vbhizik\source\repos\CChess\obj\Debug\net6.0\CChess.genruntimeconfig.cache
+C:\Users\benja_vbhizik\source\repos\CChess\obj\Debug\net6.0\ref\CChess.dll
