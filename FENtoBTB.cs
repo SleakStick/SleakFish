@@ -107,7 +107,7 @@ namespace FEN_BTBConverterNS
 
     class tester
     {
-        static void sMain(string[] args) // if this file is ran as main program, and not library, it is to be tested
+        static void  sMain(string[] args) // if this file is ran as main program, and not library, it is to be tested
         {
             Console.WriteLine("Program FENtoBTB ran as main, not library, starting test suite...");
 
