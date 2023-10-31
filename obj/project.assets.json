@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\benja_vbhizik\\source\\repos\\CChess\\CChess.csproj",
+      "projectUniqueName": "C:\\Users\\benja_vbhizik\\OneDrive\\Dokumente\\CChess\\CChess\\CChess.csproj",
       "projectName": "CChess",
-      "projectPath": "C:\\Users\\benja_vbhizik\\source\\repos\\CChess\\CChess.csproj",
+      "projectPath": "C:\\Users\\benja_vbhizik\\OneDrive\\Dokumente\\CChess\\CChess\\CChess.csproj",
       "packagesPath": "C:\\Users\\benja_vbhizik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\benja_vbhizik\\source\\repos\\CChess\\obj\\",
+      "outputPath": "C:\\Users\\benja_vbhizik\\OneDrive\\Dokumente\\CChess\\CChess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\benja_vbhizik\\AppData\\Roaming\\NuGet\\NuGet.Config",

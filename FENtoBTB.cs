@@ -223,7 +223,7 @@ namespace FEN_BTBConverterNS
 
             foreach (PropertyInfo property in testBitboards2.GetType().GetProperties())
             {
-                if (!(property.GetValue(testBitboards2).Equals(property.GetValue(correctTestResult2))))
+                if (!property.GetValue(testBitboards2).Equals(property.GetValue(correctTestResult2)))
                 {
                     if (test2Succeeded)
                     {

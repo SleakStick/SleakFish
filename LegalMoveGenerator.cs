@@ -16,7 +16,6 @@ namespace LegalMoveGeneratorNS
 		public static List<int> flippedBitDetector(UInt64 pieceBitboard)		// Function that returs the indexes of bits which are 1
 		{
 			List<int> piecesIndexList = new List<int>();
-			UInt64 mask = 1;
 
 			for (int i = 0; i < 64; i++)		// Loop that checks every index one by one to see which ones have their value set to 1
 			{
@@ -104,10 +103,10 @@ namespace LegalMoveGeneratorNS
 
 			return legalRookMoves;
 		}
+	}
 
-
-        //------------------------------------------------------------Testing------------------------------------------------------------
-        static void Main()
+     class tester{
+        static void sMain(string[] args)
 		{
             FEN_BTBConverter FEN_BTBconvert = new FEN_BTBConverter();
             Bitboards bitboards = FEN_BTBconvert.FENtoBTB("8/4Q3/8/8/1q2R3/8/8/8 w - - 0 1");
@@ -119,10 +118,9 @@ namespace LegalMoveGeneratorNS
 			//Bitboard with all the white pieces
 			UInt64 blackPiecesBitboard = bitboards.Brook | bitboards.Bknight | bitboards.Bbishop | bitboards.Bqueen | bitboards.Bking | bitboards.Bpawn;
 
-
-			UInt64 legalRookMoves = rookLegalMovesGenerator(bitboards.Wrook, allPiecesBitboard, blackPiecesBitboard);
+			UInt64 legalRookMoves = LegalMoveGenerator.rookLegalMovesGenerator(bitboards.Wrook, allPiecesBitboard, blackPiecesBitboard);
 
             Console.WriteLine(legalRookMoves);
 		}
-	}
+    } 
 }
