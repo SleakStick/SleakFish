@@ -39,7 +39,6 @@ namespace LegalMoveGeneratorNS
 				int currentRow = (currentRookIndex % 8);
 				int currentColumn = currentRookIndex - 8 * currentRow;
 				//The amount of squares we can go up, is equal to the current row
-				Console.WriteLine(currentRow);
 				int squaresDown = 7 - currentRow;
 				// The amount of squares we can go left, is equal to the current column
 				int squaresRight = 7 - currentColumn;

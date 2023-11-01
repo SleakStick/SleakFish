@@ -3,7 +3,7 @@ import socket
 import threading
 
 running = True
-responseBool = True
+responseBool = False
 
 
 #-------------------Request handler for communication with c# main.cs script------------------------
@@ -18,13 +18,16 @@ def requestHandler():
     except ConnectionRefusedError:
         print("Connection to client failed, main.cs script isn't running or has failed to run request handler")
         running = False
-        
+
     while running:
-        request = "setup"
-        sock.sendall(request.encode("UTF-8")) #Converting string to Byte, and sending it to C#
-        receivedData = sock.recv(1024).decode("UTF-8") #receiveing data in Byte fron C#, and converting it to String
-        if receivedData:
+        if not responseBool:        #Send request if we haven't yet received a response
+            request = "pieces_position"
+            sock.sendall(request.encode("UTF-8")) #Converting string to Byte, and sending it to C#
+
+        receivedData = sock.recv(65536) #receiving data in Byte from C#
+        if receivedData:        #If we receive a response, stop sending requests
             responseBool = True
+            print(receivedData)
 
 
 
